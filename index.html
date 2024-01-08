@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>company</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/root.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg_color">
+    <div id="preloader"
+        class="min-vh-100 w-100 d-flex justify-content-center align-items-center position-fixed top-0 start-0 z-3 bg-info ">
+        <div class="spin">
+            <img src="./assests/webp/logo.webp" alt="logo">
+        </div>
+    </div>
+    <header class="header_bg">
+        <nav>
+            <div class="container-fluid padding_70 pt_34">
+                <div class=" d-flex justify-content-between align-items-center">
+                    <a href="#"><img class="nav_logo" src="./assests/webp/logo.webp" alt="logo"></a>
+                    <ul class="m-0 ps-0 d-xl-flex gap-3 gap-xl-4 text-white d-none d-xl-block d-none">
+                        <li class="position-relative"><a href="#home"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Home</a>
+                        </li>
+                        <li class="position-relative"><a href="#your_benifit"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Your
+                                benefits</a>
+                        </li>
+                        <li class="position-relative"><a href="#our_process"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Our
+                                process</a>
+                        </li>
+                        <li class="position-relative"><a href="#our_work"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Our
+                                works</a></li>
+                        <li class="position-relative"><a href="#testamonial"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Testimonials</a>
+                        </li>
+                        <li class="position-relative"><a href="#Start_project"
+                                class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Start
+                                a project</a>
+                        </li>
+                    </ul>
+
+                    <button
+                        class="get_started ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue d-xl-block d-none text-uppercase">Get
+                        started</button>
+
+                    <button id="openNav" onclick="openNav()" class="menu d-xl-none" type="button">&#9776</button>
+                    <div id="Menu"
+                        class="d-xl-none navbar1 d-flex justify-content-center align-items-center text-center">
+                        <button class="menu position-absolute closbtn" onclick="closeNav()"
+                            type="button">&times;</button>
+                        <ul class="m-0 ps-0 d-flex flex-column gap-4 text-white">
+                            <li onclick="closeNav()"><a href="#home"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Home</a>
+                            </li>
+                            <li onclick="closeNav()"><a href="#your_benifit"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Your
+                                    benefits</a>
+                            </li>
+                            <li onclick="closeNav()"><a href="#our_process"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Our
+                                    process</a>
+                            </li>
+                            <li onclick="closeNav()"><a href="#our_work"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Our
+                                    works</a>
+                            </li>
+                            <li onclick="closeNav()"><a href="#testamonial"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Testimonials</a>
+                            </li>
+                            <li onclick="closeNav()"><a href="#Start_project"
+                                    class="ff_DM-Sans fs_16 fw-medium text-white line_hight_100 nav_hover">Start
+                                    a
+                                    project</a>
+                            </li>
+                            <button
+                                class="get_started ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue text-uppercase"
+                                onclick="closeNav()">Get
+                                started</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="container pt-5">
+                <h1 data-aos="fade-left" data-aos-duration="1500"
+                    class="ff_DM-Sans fs_68 fw-medium text-white m-0 text-center line_hight_120 mt-5">A Digital Product
+                    Design
+                    Agency</h1>
+                <p data-aos="fade-left" data-aos-duration="1500"
+                    class="ff_DM-Sans fs_20 fw-normal text-white m-0 text-center line_hight_34 opacity-75 mt-2 pb-3">We
+                    are
+                    Creative and
+                    Professional
+                    Digital Agency</p>
+                <div class="d-flex justify-content-center mt-4">
+                    <button
+                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue mb-5">
+                        Get started
+                    </button>
+                </div>
+                <div class="dasboard m-auto dasbord-position mt-5 position-relative">
+                    <img class="w-100 mt_50" src="./assests/webp/desktop.webp" alt="desktop">
+                    <img class="position-absolute notification w-100" src="./assests/png/notifiction.png"
+                        alt="notification">
+                    <img class="position-absolute design w-100" src="./assests/webp/ux-design.webp" alt="ux-design">
+                    <img class="position-absolute total_time w-100" src="./assests/webp/total-time.webp"
+                        alt="total-time">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- features -->
+    <section class="position-relative pb-md-5 mt_184 pt-5 overflow-hidden">
+        <img class="position-absolute sanku w-100 d-none d-lg-block" src="./assests/webp/sanku.webp" alt="sanku">
+        <img class="position-absolute trangle w-100 d-none d-lg-block" src="./assests/webp/trangle.webp" alt="trangle">
+        <div class="container mb-5 pb-4 pt-md-5">
+            <div class="mb-md-3 pt-sm-5 mt-md-5">
+                <p data-aos="fade-right" data-aos-duration="1500"
+                    class="ff_DM-Sans fs_12 fw-bold text-uppercase line_hight_122 color_lightgreen m-0">
+                    features
+                </p>
+                <p data-aos="fade-right" data-aos-duration="1500"
+                    class="ff_DM-Sans fs_48 fw-medium line_hight_122 color_lightblack m-0">We are here to help <span
+                        class="d-md-block">you
+                        with</span></p>
+                <div class="row mt-4 position-relative z-1">
+                    <div class="col-lg-4 col-md-6">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="help_card pt-5 pl_41 pe-4 pb_74 h-100">
+                            <div class="icon_bg1 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/Chart">
+                                        <g id="Chart">
+                                            <path id="Chart_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.55213 2.33398H19.4476C23.4155 2.33398 25.6555 4.58448 25.6671 8.55232V19.449C25.6671 23.4157 23.4155 25.6673 19.4476 25.6673H8.55213C4.5843 25.6673 2.3338 23.4157 2.3338 19.449V8.55232C2.3338 4.58448 4.5843 2.33398 8.55213 2.33398ZM14.0576 20.8373C14.5605 20.8373 14.9793 20.464 15.026 19.9623V8.07398C15.0726 7.71231 14.8988 7.34947 14.5838 7.15231C14.256 6.95397 13.8593 6.95397 13.5455 7.15231C13.2293 7.34947 13.0555 7.71231 13.0893 8.07398V19.9623C13.1488 20.464 13.5676 20.8373 14.0576 20.8373ZM19.4255 20.8373C19.9155 20.8373 20.3343 20.464 20.3938 19.9623V16.1357C20.4276 15.7612 20.2538 15.4123 19.9376 15.214C19.6238 15.0157 19.2271 15.0157 18.9005 15.214C18.5843 15.4123 18.4105 15.7612 18.4571 16.1357V19.9623C18.5038 20.464 18.9226 20.8373 19.4255 20.8373ZM9.58929 19.9624C9.54263 20.464 9.12379 20.8374 8.62096 20.8374C8.11929 20.8374 7.69929 20.464 7.65379 19.9624V11.9007C7.61879 11.5379 7.79263 11.1774 8.10879 10.979C8.42263 10.7807 8.82046 10.7807 9.13546 10.979C9.44929 11.1774 9.62546 11.5379 9.58929 11.9007V19.9624Z"
+                                                fill="#FEAD86" />
+                                        </g>
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">Grow your
+                                business
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0 "><span
+                                    class="fw-bold">The magicwand</span>
+                                for success isinfiguring outhow tobring in the profits and ensure the
+                                capacity needed to sustain thatgrowth for posterity.</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                        <div class="help_card pt-5 pl_41 pe-4 h-100">
+                            <div class="icon_bg2 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/Discount">
+                                        <g id="Discount">
+                                            <path id="Discount_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M23.7989 10.6704L24.6392 11.5104C25.3045 12.1637 25.6663 13.0504 25.6663 13.9837C25.678 14.917 25.3162 15.8049 24.6626 16.4687C24.6548 16.4773 24.647 16.4848 24.6392 16.4923C24.6354 16.4961 24.6315 16.4998 24.6276 16.5037L23.7989 17.332C23.4722 17.6587 23.2854 18.102 23.2854 18.5699V19.7704C23.2854 21.707 21.7098 23.2832 19.7725 23.2832H18.5704C18.1035 23.2832 17.66 23.4687 17.3333 23.7954L16.493 24.6354C15.8044 25.3249 14.9057 25.662 14.0071 25.662C13.1084 25.662 12.2097 25.3249 11.5212 24.6482L10.6692 23.7954C10.3424 23.4687 9.8989 23.2832 9.43206 23.2832H8.22996C6.29259 23.2832 4.71702 21.707 4.71702 19.7704V18.5699C4.71702 18.102 4.53029 17.6587 4.2035 17.3204L3.3632 16.492C1.9977 15.1282 1.98603 12.8987 3.35153 11.5232L4.2035 10.6704C4.53029 10.3437 4.71702 9.90038 4.71702 9.42205V8.23205C4.71702 6.29538 6.29259 4.72155 8.22996 4.72155H9.43206C9.8989 4.72155 10.3424 4.53371 10.6692 4.20705L11.5095 3.36705C12.875 1.99155 15.1041 1.99155 16.4813 3.35655L17.3333 4.20705C17.66 4.53371 18.1035 4.72155 18.5704 4.72155H19.7725C21.7098 4.72155 23.2854 6.29538 23.2854 8.23205V9.43488C23.2854 9.90038 23.4722 10.3437 23.7989 10.6704ZM10.996 18.0204C11.2761 18.0204 11.5329 17.9154 11.7196 17.7171L17.7184 11.7216C18.1152 11.3249 18.1152 10.6704 17.7184 10.2737C17.3216 9.87824 16.6797 9.87824 16.2829 10.2737L10.2841 16.2704C9.88726 16.6671 9.88726 17.3204 10.2841 17.7171C10.4708 17.9154 10.7276 18.0204 10.996 18.0204ZM15.9794 16.9937C15.9794 17.5654 16.4346 18.0204 17.0065 18.0204C17.5667 18.0204 18.0218 17.5654 18.0218 16.9937C18.0218 16.4349 17.5667 15.9787 17.0065 15.9787C16.4346 15.9787 15.9794 16.4349 15.9794 16.9937ZM11.0076 9.98201C11.5678 9.98201 12.023 10.437 12.023 10.997C12.023 11.5698 11.5678 12.0237 11.0076 12.0237C10.4474 12.0237 9.98056 11.5698 9.98056 10.997C9.98056 10.437 10.4474 9.98201 11.0076 9.98201Z"
+                                                fill="#51A690" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">Drive more
+                                sales
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0  pb_50">A
+                                potential customer, once lost, is hard to retain back. But <span class="fw-bold">keeping
+                                    some critical</span> factors
+                                in mind, we can, for sure,
+                                use these loyalty programs as customer retention tools.</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                        <div class="help_card pt-5 pl_41 h-100">
+                            <div class="icon_bg3 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/3 User">
+                                        <g id="3 User">
+                                            <path id="3 Friends" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M18.8514 9.60508C18.8514 12.3464 16.666 14.5445 13.9405 14.5445C11.2151 14.5445 9.02969 12.3464 9.02969 9.60508C9.02969 6.86273 11.2151 4.66675 13.9405 4.66675C16.666 4.66675 18.8514 6.86273 18.8514 9.60508ZM13.9405 23.3334C9.93745 23.3334 6.51939 22.6988 6.51939 20.1603C6.51939 17.6207 9.91551 16.963 13.9405 16.963C17.9435 16.963 21.3616 17.5976 21.3616 20.1372C21.3616 22.6757 17.9655 23.3334 13.9405 23.3334ZM20.95 9.6942C20.95 11.0916 20.5332 12.3935 19.8019 13.4757C19.7267 13.5871 19.7936 13.7373 19.9262 13.7604C20.109 13.792 20.2981 13.8098 20.4903 13.8151C22.4072 13.8655 24.1277 12.6246 24.6031 10.7565C25.3071 7.98155 23.2398 5.49032 20.6073 5.49032C20.3211 5.49032 20.0474 5.52079 19.781 5.57543C19.7445 5.58383 19.7058 5.60064 19.6849 5.63322C19.6598 5.67314 19.6786 5.72673 19.7037 5.7614C20.4945 6.8762 20.95 8.23582 20.95 9.6942ZM24.1246 15.7647C25.4126 16.018 26.2598 16.5349 26.6108 17.2862C26.9075 17.9029 26.9075 18.6185 26.6108 19.2342C26.0739 20.3994 24.3429 20.7735 23.6702 20.8701C23.5312 20.8911 23.4195 20.7703 23.4341 20.6306C23.7778 17.4017 21.044 15.8709 20.3368 15.5189C20.3065 15.5031 20.3002 15.4789 20.3033 15.4642C20.3054 15.4537 20.3179 15.4369 20.3409 15.4338C21.8713 15.4054 23.5166 15.6155 24.1246 15.7647ZM7.50996 13.8149C7.70218 13.8097 7.89021 13.7928 8.07407 13.7603C8.20674 13.7372 8.27359 13.5869 8.19838 13.4755C7.46713 12.3933 7.05032 11.0915 7.05032 9.69403C7.05032 8.23565 7.50578 6.87603 8.29657 5.76123C8.32165 5.72656 8.33941 5.67297 8.31538 5.63304C8.29449 5.60152 8.25479 5.58366 8.21927 5.57525C7.95184 5.52062 7.67815 5.49015 7.39192 5.49015C4.75944 5.49015 2.6921 7.98138 3.39723 10.7563C3.87254 12.6245 5.59306 13.8653 7.50996 13.8149ZM7.69642 15.4636C7.69955 15.4794 7.69328 15.5025 7.66403 15.5193C6.95577 15.8713 4.22196 17.4022 4.56564 20.63C4.58027 20.7707 4.46954 20.8905 4.3306 20.8706C3.65785 20.7739 1.92689 20.3998 1.38995 19.2346C1.09223 18.6178 1.09223 17.9034 1.38995 17.2866C1.74095 16.5353 2.5871 16.0184 3.87514 15.7641C4.48416 15.616 6.12842 15.4058 7.65986 15.4342C7.68284 15.4374 7.69433 15.4542 7.69642 15.4636Z"
+                                                fill="#FFCF00" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">Handle by
+                                Expert
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0 pe-3 pb_95">We know
+                                how we candevelop deep, trust-based relationships with our clients, and work together
+                                more collaboratively</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
+                        <div class="help_card pt-5 pl_41 pe-4 pb_68 h-100">
+                            <div class="icon_bg4 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/Search">
+                                        <g id="Search">
+                                            <path id="Search_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M2.33325 12.4482C2.33325 6.86191 6.81365 2.33331 12.3405 2.33331C14.9946 2.33331 17.54 3.39899 19.4167 5.2959C21.2934 7.19282 22.3477 9.76558 22.3477 12.4482C22.3477 18.0345 17.8673 22.5631 12.3405 22.5631C6.81365 22.5631 2.33325 18.0345 2.33325 12.4482ZM22.1822 20.5966L25.1626 23.0024H25.2143C25.8173 23.6119 25.8173 24.6001 25.2143 25.2095C24.6114 25.819 23.6337 25.819 23.0308 25.2095L20.5574 22.3748C20.3236 22.1393 20.1922 21.8194 20.1922 21.4857C20.1922 21.1521 20.3236 20.8321 20.5574 20.5966C21.0084 20.1487 21.7312 20.1487 22.1822 20.5966Z"
+                                                fill="#00A198" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">UX Research
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0">UX
+                                research is the systematic study of target users and their requirements, to add
+                                realistic contexts and insights to
+                                design processes.</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
+                        <div class="help_card pt-5 pl_41 pe-4 pb_68 h-100">
+                            <div class="icon_bg5 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/Graph">
+                                        <g id="Graph">
+                                            <path id="Graph_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M14.3808 2.57792C14.5671 2.41069 14.8136 2.32303 15.0658 2.33428C20.3984 2.49391 24.8551 6.36508 25.6629 11.539C25.668 11.5699 25.668 11.6014 25.6629 11.6323C25.6802 11.8771 25.5975 12.1187 25.4329 12.3035C25.2684 12.4883 25.0355 12.6011 24.7859 12.6171L15.8265 13.2079C15.5302 13.2342 15.2364 13.1367 15.0172 12.9394C14.798 12.7421 14.6737 12.4632 14.6749 12.1714L14.0727 3.37085V3.22573C14.0836 2.97822 14.1945 2.74515 14.3808 2.57792ZM13.7663 15.5091L21.5318 15.0116L21.5846 15.0323C21.9181 15.0378 22.2357 15.173 22.4675 15.4082C22.6993 15.6434 22.8264 15.9594 22.8207 16.2866C22.5147 20.7457 19.2455 24.4714 14.7966 25.4313C10.3476 26.3911 5.78686 24.3547 3.60241 20.4329C2.96008 19.3033 2.55418 18.0593 2.40852 16.7738C2.35203 16.3928 2.3273 16.008 2.33457 15.6232C2.34929 10.8816 5.72515 6.7889 10.4487 5.78607C11.0206 5.67904 11.5939 5.96455 11.8434 6.48058C11.9055 6.57422 11.9552 6.67523 11.9913 6.78119C12.0798 8.14808 12.1717 9.50204 12.2631 10.8503C12.3354 11.915 12.4074 12.9761 12.4773 14.0372C12.4737 14.2872 12.513 14.536 12.5935 14.7732C12.7831 15.2399 13.2549 15.5359 13.7663 15.5091Z"
+                                                fill="#75578E" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">Business
+                                Audit
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0">An audit
+                                examines your business's financial records to verify they are accurate. This is done
+                                through a systematic
+                                review of your transactions.</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
+                        <div class="help_card pt-5 pl_41 pe-4 pb_91 h-100">
+                            <div class="icon_bg6 d-flex justify-content-center align-items-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Iconly/Bold/Bag 2">
+                                        <g id="Bag 2">
+                                            <path id="Bag 2_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M19.1548 7.54831H19.3938C22.5344 7.54831 25.0834 10.1733 25.0834 13.3933V19.8333C25.0834 23.0533 22.5344 25.6666 19.3938 25.6666H8.60628C5.46563 25.6666 2.91669 23.0533 2.91669 19.8333V13.3933C2.91669 10.1733 5.46563 7.54831 8.60628 7.54831H8.84525C8.868 6.14831 9.40283 4.84165 10.3701 3.86165C11.3487 2.86998 12.6004 2.36831 14.0114 2.33331C16.8334 2.33331 19.1207 4.66665 19.1548 7.54831ZM11.5648 5.10998C10.9276 5.76331 10.5748 6.62665 10.5521 7.54831H17.4479C17.4137 5.63498 15.8889 4.08331 14.0114 4.08331C13.1352 4.08331 12.2248 4.44498 11.5648 5.10998ZM18.3241 12.04C18.802 12.04 19.1775 11.6433 19.1775 11.165V9.81167C19.1775 9.33334 18.802 8.93667 18.3241 8.93667C17.8575 8.93667 17.4706 9.33334 17.4706 9.81167V11.165C17.4706 11.6433 17.8575 12.04 18.3241 12.04ZM10.4269 11.165C10.4269 11.6433 10.0514 12.04 9.57348 12.04C9.10694 12.04 8.72004 11.6433 8.72004 11.165V9.81167C8.72004 9.33334 9.10694 8.93667 9.57348 8.93667C10.0514 8.93667 10.4269 9.33334 10.4269 9.81167V11.165Z"
+                                                fill="#0985B9" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="ff_DM-Sans fs_22 fw-bold color_lightblack line_hight_30 m-0 mt-3 pt-1">Data
+                                tracking
+                            </p>
+                            <p class="ff_DM-Sans fs_16 fw-normal color_gray line_hight_24 mt-3 m-0">The
+                                hardware and software, which when used together allows you to know where something is at
+                                any point in time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- proces -->
+    <section class="proces_bg py-lg-5 mt-md-5 position-relative overflow-hidden">
+        <div class="container mt-5 pt-5 pb-5 mb-md-4 position-relative z-1">
+            <p data-aos="fade-left" data-aos-duration="1500"
+                class="text-uppercase ff_DM-Sans fw-bold fs_12 line_hight_122 text-white opacity-50 text-center m-0 mt-5">
+                how it works</p>
+            <h2 data-aos="fade-left" data-aos-duration="1500"
+                class="ff_DM-Sans fs_48 fw-medium text-white line_hight_122 text-center m-0 mt-3">Our Process</h2>
+            <p data-aos="fade-left" data-aos-duration="1500"
+                class="text-white ff_DM-Sans fs_20 fw-normal line_hight_34 text-center konw_w m-auto mt-4 mb-2">We know
+                the best solution for all of your business ideas and we can help yous solve all business problem</p>
+            <div class="mb-md-5 middle_line pb-3">
+                <div data-aos="fade-up" data-aos-duration="1500" class="process_card m-auto mt-4 position-relative z-1">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-5">
+                            <img class="w-100 process_card1" src="./assests/webp/business_audit.webp"
+                                alt="business_audit">
+                        </div>
+                        <div class="col-lg-7 pb-lg-0 pb-5 ps-lg-5 mt-4 mt-lg-0">
+                            <img class="" src="./assests/webp/search.webp" alt="search">
+                            <p class="color_lightblack ff_DM-Sans fs_22 fw-bold line_hight_30 m-0 mt-4">Business Audit
+                            </p>
+                            <p class="color_gray ff_DM-Sans fs_16 fw-normal line_hight_24 m-0 audit_width mt-3">An
+                                audit
+                                examines
+                                your
+                                business's financial
+                                records to verify they are accurate. This is done through a systematic review of your
+                                transactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" class="process_card m-auto mt-4 position-relative z-1">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-5">
+                            <img class="w-100 process_card1" src="./assests/webp/data-tracking.webp"
+                                alt="data-tracking">
+                        </div>
+                        <div class="col-lg-7 pb-lg-0 pb-5 ps-lg-5 mt-4 mt-lg-0">
+                            <img class="" src="./assests/webp/file.webp" alt="file">
+                            <p class="color_lightblack ff_DM-Sans fs_22 fw-bold line_hight_30 m-0 mt-4">Data tracking
+                            </p>
+                            <p class="color_gray ff_DM-Sans fs_16 fw-normal line_hight_24 m-0 audit_width mt-3">The
+                                hardware and software, which when used together allows you to know where something is at
+                                any
+                                point in time</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" class="process_card m-auto mt-4 position-relative z-1">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-5">
+                            <img class="w-100 process_card1" src="./assests/webp/result.webp" alt="result">
+                        </div>
+                        <div class="col-lg-7 pb-lg-0 pb-5 ps-lg-5 mt-4 mt-lg-0">
+                            <img class="" src="./assests/webp/final-result.webp" alt="result">
+                            <p class="color_lightblack ff_DM-Sans fs_22 fw-bold line_hight_30 m-0 mt-4">Results</p>
+                            <p class="color_gray ff_DM-Sans fs_16 fw-normal line_hight_24 m-0 audit_width mt-3">An
+                                audit examines your business's financial records to verify they are accurate. This is
+                                done
+                                through a systematic
+                                review of your transactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brands -->
+    <section class="my-md-3 py-5 overflow-hidden">
+        <div class="container my-md-5 py-5">
+            <p data-aos="fade-left" data-aos-duration="1500"
+                class="color_lightgreen ff_DM-Sans fs_12 fw-bold line_hight_122 text-center m-0 pt-md-4">BRANDS</p>
+            <h2 data-aos="fade-left" data-aos-duration="1500"
+                class="color_lightblack ff_DM-Sans fs_48 fw-medium line_hight_122 work_width text-center m-auto m-0 mt-4 pb-2">
+                We
+                work with thousands of the world’s leading brands</h2>
+            <div class="d-flex justify-content-between overflow-x-scroll scolle_hide mt-4">
+                <img class="brand_width w-100" src="./assests/webp/mazda.webp" alt="mazda">
+                <img class="brand_width w-100 mx-5" src="./assests/webp/atlassian.webp" alt="atlassian">
+                <img class="brand_width w-100 mx-5" src="./assests/webp/smashing.webp" alt="smashing">
+                <img class="brand_width w-100" src="./assests/webp/qantas.webp" alt="">
+            </div>
+            <div class="d-flex justify-content-between overflow-x-scroll scolle_hide my-4">
+                <img class="brand_width w-100" src="./assests/webp/introb.webp" alt="intro">
+                <img class="brand_width w-100 mx-5" src="./assests/webp/cssmnia.webp" alt="mnia">
+                <img class="brand_width w-100 mx-5" src="./assests/webp/popsugar.webp" alt="popsugar">
+                <img class="brand_width w-100" src="./assests/webp/totalbin.webp" alt="tailbin    ">
+            </div>
+            <p data-aos="fade-right" data-aos-duration="1500"
+                class="color_lightgray ff_DM-Sans fs_16 fw-normal line_hight_148 m-0 text-center going_width m-auto pt-3 pb-md-4 mb-3">
+                You're
+                going to be in good company.
+                We work with world's leading brands.</p>
+        </div>
+    </section>
+    <!-- start -->
+    <section class="start_bg py-5 overflow-hidden">
+        <div class="container my-md-5 pt-2">
+            <div class="row py-5 align-items-center">
+                <div class="col-lg-5">
+                    <p data-aos="fade-right" data-aos-duration="1500"
+                        class="text-uppercase text-white opacity-50 ff_DM-Sans fs_12 fw-bold line_hight_122 m-0">
+                        start with
+                        us</p>
+                    <h2 data-aos="fade-right" data-aos-duration="1500"
+                        class="start_width text-white fs_48 fw-medium line_hight_122 mt-3 m-0">Start working faster
+                        today
+                    </h2>
+                    <p data-aos="fade-right" data-aos-duration="1500"
+                        class="text-white ff_DM-Sans fs_20 fw-normal line_hight_34 m-0 mt-4 pb-3 know_width">We know the
+                        best
+                        solution
+                        for all of your business ideas and we can help you solve all business problems</p>
+
+                    <button
+                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue mt-4">
+                        Get started
+                    </button>
+
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1500"
+                    class="col-lg-7 d-flex justify-content-end position-relative mt-5 mt-lg-0">
+                    <img class="position-absolute work_bhind w-100" src="./assests/webp/work_behind.webp"
+                        alt="work_behind">
+                    <img class="w-100 work_img position-relative z-1" src="./assests/webp/working_fast.webp" alt="work">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg_black pt-4">
+        <div class="container mt-5 pt-3">
+            <div class="d-flex justify-content-between align-items-center pb-4 mb-1">
+                <img class="footer_logo  w-100" src="./assests/webp/footer_logo.webp" alt="footer_logo">
+                <div class="d-none d-xl-block align-items-center">
+                    <ul class="d-flex gap_32 gap-4 m-0 ">
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Home</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Your
+                                benefits</a></li>
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Our
+                                process</a></li>
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Our
+                                works</a></li>
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Testimonials</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100 light">Start a
+                                project</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex gap_20">
+                    <img class="icon" src="./assests/svg/Facebook.svg" alt="facebook">
+                    <img class="icon" src="./assests/svg/Instagram.svg" alt="Instagram">
+                    <img class="icon" src="./assests/svg/Twitter.svg" alt="Twitter">
+                </div>
+            </div>
+            <div class="d-xl-none mb-3">
+                <ul class="flex-row d-flex flex-wrap gap_32 gap-4 m-0 align-items-center justify-content-center">
+                    <li><a href="#" class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Home</a>
+                    </li>
+                    <li><a href="#" class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Your
+                            benefits</a></li>
+                    <li><a href="#" class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Our
+                            process</a></li>
+                    <li><a href="#" class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Our
+                            works</a></li>
+                    <li><a href="#"
+                            class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Testimonials</a>
+                    </li>
+                    <li><a href="#" class="text-white opacity-75 ff_DM-Sans fs_16 fw-medium line_hight_100">Start a
+                            project</a></li>
+                </ul>
+            </div>
+            <div class="bottom_line"></div>
+            <div class="py_28 d-sm-flex flex-wrap justify-content-between text-center">
+                <p class="text-white opacity-75 ff_DM-Sans fs_15 fw-normal line_hight_24 m-0">© 2021 Company
+                </p>
+                <div class="gap-4 d-flex justify-content-center mt-3 mt-sm-0">
+                    <p class="text-white opacity-75 ff_DM-Sans fs_15 fw-normal line_hight_20 m-0 text-center">Privacy
+                        policy</p>
+                    <p class="text-white opacity-75 ff_DM-Sans fs_15 fw-normal line_hight_20 m-0 text-center">Term of
+                        service</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="back-to-top" class="z-2">
+        <svg width="30" height="40" fill="#ffff" viewBox="0 0 16 16">
+            <path fillRule="evenodd"
+                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+            </path>
+            <path fillRule="evenodd"
+                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+            </path>
+        </svg>
+    </button>
+
+    <script src="./assests/css/style.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
