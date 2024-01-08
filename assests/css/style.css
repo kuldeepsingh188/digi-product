@@ -65,6 +65,7 @@
 
 .color_lightgreen {
     color: #00A077;
+    opacity: 0.5;
 }
 
 .color_lightblack {
@@ -171,15 +172,12 @@
     background: #FFF;
     border: none;
     letter-spacing: 0.28px;
-    border: 1px solid transparent;
     transition: all 200ms linear;
     left: 0;
 }
 
 .get_started:hover {
-    background: #8281FF;
-    border: 1px solid #fff;
-    color: #FFF;
+    box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.7);
 }
 
 /* -- header -- */
@@ -230,6 +228,10 @@
 
 .help_card:hover {
     scale: 1.05;
+}
+
+.cursor_pointer {
+    cursor: pointer;
 }
 
 .icon_bg1 {
