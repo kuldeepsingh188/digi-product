@@ -27,13 +27,13 @@
 
 <body class="bg_color overflow-hidden">
     <div id="preloader"
-        class="min-vh-100 w-100 d-flex justify-content-center align-items-center position-fixed top-0 start-0 z-3 bg-info ">
+        class="min-vh-100 w-100 d-flex justify-content-center align-items-center position-fixed top-0 start-0 z-3 bg-info overflow-hidden">
         <div class="spin">
             <img src="./assests/webp/logo.webp" alt="logo">
         </div>
     </div>
-    <header class="header_bg max_width1920 mx-auto">
-        <nav>
+    <header class="header_bg">
+        <nav class="max_width1920 mx-auto">
             <div class="container-fluid padding_70 pt_34">
                 <div class=" d-flex justify-content-between align-items-center">
                     <a href="#"><img class="nav_logo" src="./assests/webp/logo.webp" alt="logo"></a>
@@ -62,7 +62,7 @@
                     </ul>
 
                     <button
-                        class="get_started ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue d-xl-block d-none text-uppercase">Get
+                        class="get_started ff_DM-Sans fs_14 fw-bold line_hight_148 letter_spacing_28 color_lightblue d-xl-block d-none text-uppercase">Get
                         started</button>
 
                     <button id="openNav" onclick="openNav()" class="menu d-xl-none" type="button">&#9776;</button>
@@ -104,7 +104,7 @@
             </div>
         </nav>
         <section>
-            <div id="home" class="container pt-5">
+            <div id="home" class="custom_container pt-5">
                 <h1 data-aos="fade-left" data-aos-duration="1500"
                     class="ff_DM-Sans fs_68 fw-medium text-white m-0 text-center line_hight_120 mt-sm-5">A Digital
                     Product
@@ -118,7 +118,7 @@
                     Digital Agency</p>
                 <div class="d-flex justify-content-center mt-4">
                     <button
-                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue mb-5">
+                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 letter_spacing_28 color_lightblue mb-5">
                         Get started
                     </button>
                 </div>
@@ -137,10 +137,10 @@
     <section id="features" class="position-relative py-md-5 mt_184 pt-4 overflow-hidden max_width1920 mx-auto">
         <img class="position-absolute sanku w-100 d-none d-lg-block" src="./assests/webp/sanku.webp" alt="sanku">
         <img class="position-absolute trangle w-100 d-none d-lg-block" src="./assests/webp/trangle.webp" alt="trangle">
-        <div class="container mb-5 pb-4 pt-md-5">
+        <div class="custom_container mb-5 pb-sm-4 pt-md-5">
             <div class="my-md-3 pt-sm-5">
                 <p data-aos="fade-right" data-aos-duration="1500"
-                    class="ff_DM-Sans fs_12 fw-bold text-uppercase line_hight_122 color_lightgreen m-0">
+                    class="ff_DM-Sans fs_12 fw-bold text-uppercase line_hight_122 letter_spacing_108 color_lightgreen m-0">
                     features
                 </p>
                 <h2 data-aos="fade-right" data-aos-duration="1500"
@@ -148,9 +148,9 @@
                         class="d-md-block">you
                         with</span></h2>
                 <div class="row mt-4 position-relative z-1">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div data-aos="zoom-in" data-aos-duration="1500"
-                            class="help_card pt-5 pl_41 pe-4 pb_74 h-100 cursor_pointer">
+                            class="help_card pt-lg-5 pt-4 pl_41 pe-4 pb_74 h-100 cursor_pointer">
                             <div class="icon_bg1 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -174,8 +174,8 @@
                                 capacity needed to sustain thatgrowth for posterity.</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                        <div class="help_card pt-5 pl_41 pe-4 h-100 cursor_pointer">
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-sm-6 mt-4 mt-sm-0">
+                        <div class="help_card pt-lg-5 pt-4 pl_41 pe-4 h-100 cursor_pointer">
                             <div class="icon_bg2 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -199,8 +199,8 @@
                                 use these loyalty programs as customer retention tools.</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                        <div class="help_card pt-5 pl_41 h-100 cursor_pointer">
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-sm-6 mt-4 mt-lg-0">
+                        <div class="help_card pt-lg-5 pt-4 pl_41 h-100 cursor_pointer">
                             <div class="icon_bg3 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -224,8 +224,8 @@
                                 more collaboratively</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
-                        <div class="help_card pt-5 pl_41 pe-4 pb_68 h-100 cursor_pointer">
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-sm-6 mt-4">
+                        <div class="help_card pt-lg-5 pt-4 pl_41 pe-4 pb_68 h-100 cursor_pointer">
                             <div class="icon_bg4 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -247,8 +247,8 @@
                                 design processes.</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
-                        <div class="help_card pt-5 pl_41 pe-4 pb_68 h-100 cursor_pointer">
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-sm-6 mt-4">
+                        <div class="help_card pt-lg-5 pt-4 pl_41 pe-4 pb_68 h-100 cursor_pointer">
                             <div class="icon_bg5 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -271,8 +271,8 @@
                                 review of your transactions.</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-md-6 mt-4">
-                        <div class="help_card pt-5 pl_41 pe-4 pb_91 h-100 cursor_pointer">
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col-lg-4 col-sm-6 mt-4">
+                        <div class="help_card pt-lg-5 pt-4 pl_41 pe-4 pb_91 h-100 cursor_pointer">
                             <div class="icon_bg6 d-flex justify-content-center align-items-center">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -299,17 +299,17 @@
         </div>
     </section>
     <!-- proces -->
-    <section id="proces" class="proces_bg py-lg-5 mt-md-5 position-relative overflow-hidden max_width1920 mx-auto">
-        <div class="container mt-md-5 pt-5 pb-5 mb-md-4 position-relative z-1">
+    <section id="proces" class="proces_bg py-lg-5 mt-md-5 position-relative overflow-hidden">
+        <div class="custom_container mt-md-5 pt-5 pb-5 mb-md-4 position-relative z-1">
             <p data-aos="fade-left" data-aos-duration="1500"
-                class="text-uppercase ff_DM-Sans fw-bold fs_12 line_hight_122 text-white opacity-50 text-center m-0 mt-sm-5">
+                class="text-uppercase ff_DM-Sans fw-bold fs_12 line_hight_122 letter_spacing_108 text-white opacity-50 text-center m-0 mt-sm-5">
                 how it works</p>
             <h2 data-aos="fade-left" data-aos-duration="1500"
                 class="ff_DM-Sans fs_48 fw-medium text-white line_hight_122 text-center m-0 mt-3">Our Process</h2>
             <p data-aos="fade-left" data-aos-duration="1500"
                 class="text-white ff_DM-Sans fs_20 fw-normal line_hight_34 text-center konw_w m-auto mt-4 mb-2">We know
                 the best solution for all of your business ideas and we can help yous solve all business problem</p>
-            <div class="mb-md-5 middle_line pb-3">
+            <div class="mb-md-5 middle_line pb-sm-3">
                 <div data-aos="fade-up" data-aos-duration="1500"
                     class="process_card m-auto mt_40 mt-4  position-relative z-1">
                     <div class="row align-items-center justify-content-between">
@@ -370,10 +370,10 @@
         </div>
     </section>
     <!-- brands -->
-    <section id="brand" class="my-md-3 py-sm-5 overflow-hidden max_width1920 mx-auto">
-        <div class="container my-md-5 py-5">
+    <section id="brand" class="my-md-3 py-sm-5 overflow-hidden">
+        <div class="custom_container my-md-5 py-5">
             <p data-aos="fade-left" data-aos-duration="1500"
-                class="color_lightgreen ff_DM-Sans fs_12 fw-bold line_hight_122 text-center m-0 pt-md-4">
+                class="color_lightgreen ff_DM-Sans fs_12 fw-bold line_hight_122 letter_spacing_108 text-center m-0 pt-md-4">
                 BRANDS</p>
             <h2 data-aos="fade-left" data-aos-duration="1500"
                 class="color_lightblack ff_DM-Sans fs_48 fw-medium line_hight_122 work_width text-center m-auto m-0 mt-4 pb-2">
@@ -427,12 +427,12 @@
         </div>
     </section>
     <!-- start -->
-    <section id="testamonial" class="start_bg py-sm-5 overflow-hidden max_width1920 mx-auto">
-        <div class="container my-md-5 pt-2">
+    <section id="testamonial" class="start_bg py-sm-5 overflow-hidden">
+        <div class="custom_container my-md-5 pt-sm-2">
             <div class="row py-5 align-items-center">
                 <div class="col-lg-5">
                     <p data-aos="fade-right" data-aos-duration="1500"
-                        class="text-uppercase text-white opacity-50 ff_DM-Sans fs_12 fw-bold line_hight_122 m-0">
+                        class="text-uppercase text-white opacity-50 ff_DM-Sans fs_12 fw-bold line_hight_122 letter_spacing_108 m-0">
                         start with
                         us</p>
                     <h2 data-aos="fade-right" data-aos-duration="1500"
@@ -446,7 +446,7 @@
                         for all of your business ideas and we can help you solve all business problems</p>
 
                     <button
-                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 color_lightblue mt-4">
+                        class="get_started text-uppercase ff_DM-Sans fs_14 fw-bold line_hight_148 letter_spacing_28 color_lightblue mt-4">
                         Get started
                     </button>
                 </div>
@@ -460,10 +460,10 @@
         </div>
     </section>
     <!-- footer -->
-    <footer id="footer" class="bg_black pt-4 max_width1920 mx-auto">
-        <div class="container mt-sm-5 pt-3">
+    <footer id="footer" class="bg_black pt-4">
+        <div class="custom_container mt-sm-5 pt-3">
             <div class="d-flex justify-content-between align-items-center pb-4 mb-1">
-                <img class="footer_logo  w-100" src="./assests/webp/footer_logo.webp" alt="footer_logo">
+                <img class="footer_logo  w-100 cursor_pointer" src="./assests/webp/footer_logo.webp" alt="footer_logo">
                 <div class="d-none d-xl-block align-items-center">
                     <ul class="d-flex gap_32 gap-4 m-0 ">
                         <li
@@ -528,8 +528,8 @@
             </div>
         </div>
     </footer>
-    <button id="back-to-top" class="z-2 max_width1920 mx-auto   ">
-        <svg width="30" height="30" fill="#ffff" viewBox="0 0 16 16">
+    <button id="back-to-top" class="z-2">
+        <svg width="25" height="25" fill="#ffff" viewBox="0 0 16 16">
             <path fillRule="evenodd"
                 d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
             </path>

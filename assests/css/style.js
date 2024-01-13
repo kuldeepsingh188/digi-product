@@ -31,7 +31,6 @@ $('.responsive').slick({
     infinite: true,
     arrows: false,
     autoplay: true,
-    pauseOnHover: true,
     autoplaySpeed: 0,
     cssEase: "linear",
     speed: 2000,

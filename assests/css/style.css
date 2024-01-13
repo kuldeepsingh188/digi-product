@@ -12,6 +12,14 @@
     max-width: 1920px;
 }
 
+.custom_container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .bg_color {
     background: #F9F8FF;
 }
@@ -35,7 +43,7 @@
 }
 
 .pl_41 {
-    padding-left: 41px;
+    padding-left: 35px;
 }
 
 .pb_50 {
@@ -43,19 +51,19 @@
 }
 
 .pb_68 {
-    padding-bottom: 68px;
+    padding-bottom: 50px;
 }
 
 .pb_74 {
-    padding-bottom: 74px;
+    padding-bottom: 50px;
 }
 
 .pb_91 {
-    padding-bottom: 91px;
+    padding-bottom: 50px;
 }
 
 .pb_95 {
-    padding-bottom: 95px;
+    padding-bottom: 50px;
 }
 
 .mt_40 {
@@ -73,7 +81,7 @@
 
 .color_lightgreen {
     color: #00A077;
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 .color_lightblack {
@@ -119,6 +127,15 @@
 
 .line_hight_148 {
     line-height: 148%;
+}
+
+/* ----------- letter spacing ------------ */
+.letter_spacing_28 {
+    letter-spacing: 0.28px;
+}
+
+.letter_spacing_108 {
+    letter-spacing: 1.8px;
 }
 
 /* ------ nav ------ */
@@ -299,9 +316,9 @@
 }
 
 .sanku {
-    top: 16%;
+    top: 14%;
     right: 0;
-    max-width: 761px;
+    max-width: 561px;
 }
 
 .trangle {
@@ -485,8 +502,8 @@ body.scrolled #back-to-top {
 @media (min-width:768px) {
     .notification {
         top: -2%;
-        right: -4%;
-        max-width: 162px;
+        right: -1%;
+        max-width: 151px;
     }
 
     .design {
@@ -497,7 +514,7 @@ body.scrolled #back-to-top {
 
     .total_time {
         bottom: -15.5%;
-        left: -6%;
+        left: -2%;
         max-width: 320px;
     }
 
@@ -528,13 +545,33 @@ body.scrolled #back-to-top {
         max-width: 300px;
         right: -2%;
     }
+
+    .pl_41 {
+        padding-left: 41px;
+    }
+
+    .pb_74 {
+        padding-bottom: 74px;
+    }
+
+    .pb_95 {
+        padding-bottom: 95px;
+    }
+
+    .pb_91 {
+        padding-bottom: 91px;
+    }
+
+    .pb_68 {
+        padding-bottom: 68px;
+    }
 }
 
 @media (min-width:1024px) {
     .notification {
         top: -6%;
-        right: -3.8%;
-        max-width: 215px;
+        right: -1%;
+        max-width: 200px;
     }
 }
 
@@ -569,6 +606,10 @@ body.scrolled #back-to-top {
     .padding_70 {
         padding-left: 50px !important;
         padding-right: 50px !important;
+    }
+
+    .sanku {
+        max-width: 761px;
     }
 }
 
